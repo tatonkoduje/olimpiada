@@ -72,7 +72,7 @@ void snake_move(int k, int w)
     // i na koncu mozemy zmodyfikowac element zerowy weza
     snake[0][0] = k; // pozycja x z vectora
     snake[0][1] = w; // pozycja y z vectora
-    snake[0][2] = snake[0][2]; // kolor glowy przy ruchu sie  nie zmienia
+    //snake[0][2] = snake[0][2]; // kolor glowy przy ruchu sie  nie zmienia
 }
 
 
@@ -104,7 +104,6 @@ void snake_action(string direction)
 
     show_snake("Waz przed zmianami: ");
 
-    vector<int> next_head_position;
     int k = snake[0][0] + move_values[0];
     int w = snake[0][1] + move_values[1];
 

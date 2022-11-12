@@ -50,7 +50,7 @@ void snake_move(int k, int w)
 
     snake[0][0] = k;
     snake[0][1] = w;
-    snake[0][2] = snake[0][2];
+    //snake[0][2] = snake[0][2];
 }
 
 
@@ -75,7 +75,6 @@ void snake_action(string direction)
         move_values = {0, 1};
     }
 
-    vector<int> next_head_position;
     int k = snake[0][0] + move_values[0];
     int w = snake[0][1] + move_values[1];
 
