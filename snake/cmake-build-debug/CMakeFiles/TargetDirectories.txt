@@ -1,0 +1,3 @@
+C:/Users/aru/CLionProjects/olimpiada/snake/cmake-build-debug/CMakeFiles/snake.dir
+C:/Users/aru/CLionProjects/olimpiada/snake/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aru/CLionProjects/olimpiada/snake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
